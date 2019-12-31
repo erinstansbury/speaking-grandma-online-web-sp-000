@@ -1,9 +1,9 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma()
-  if speak_to_grandma('I LOVE YOU GRANDMA!') == true
-      puts 'I LOVE YOU TOO PUMPKIN!'
-  else speak_to_grandma() != speak_to_grandma().upcase
-      puts 'HUH?! SPEAK UP, SONNY!'
+def speak_to_grandma(string)
+  if string == "I LOVE YOU GRANDMA!"
+      puts "I LOVE YOU TOO PUMPKIN!"
+  else string != speak_to_grandma().upcase
+      puts "HUH?! SPEAK UP, SONNY!"
   end
 end
 # Whatever you say to grandma, she should respond with
